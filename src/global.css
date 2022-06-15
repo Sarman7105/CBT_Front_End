@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dashboard {
+  display: flex;
+  /* gap: 10px; */
+}
+.option {
+  flex: 2;
+
+  height: 100vh;
+  color: #61dafa;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #282c34;
+}
+.option .option-container {
+  padding: 10px 5px;
+}
+.main {
+  flex: 10;
+  height: 100vh;
+  background: #e0e0e0;
+}
+.main .main-inner {
+  display: flex;
+  padding: 10px 20px;
+}
+.reports a {
+  text-decoration: none;
+}
+.main h2 {
+  color: #af6fd4;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 20px;
+}
+.report {
+  margin-right: 10px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-radius: 12px;
+  box-shadow: 7px 7px 3px #a1a1a1;
+  color: #8a848d;
+}
+.report p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.report h3 {
+  color: #ae83c7;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.candidate-container {
+  display: flex;
+}
+
+.candidate {
+  width: 250px;
+  height: 350px;
+  margin-left: 20px;
+  background-color: #846796;
+  border-radius: 6px;
+  color: #eeeeee;
+}
+.candidate-container {
+  margin-top: 15px;
+}
+.candidate img {
+  display: block;
+  border-radius: 6px 6px 0 0;
+  width: 100%;
+}
